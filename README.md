@@ -1,4 +1,4 @@
-![example workflow](https://github.com/FdoCorp/docs/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/FdoCorp/yamdb_final/actions/workflows/main.yml/badge.svg)
 # Api_yamdb
 
 REST API проект для сервиса YaMDb — сбор отзывов о фильмах, книгах или музыке.
