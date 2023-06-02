@@ -11,7 +11,7 @@ services:
   web:
     build:
       context: ../
-      dockerfile: api_yamdb/Dockerfile
+      dockerfile: yamdb/Dockerfile
     restart: always
     volumes:
       - static_value:/app/static/
@@ -28,7 +28,7 @@ services:
 
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - $PWD/../api_yamdb/templates:/var/html/redoc/
+      - $PWD/../yamdb/templates:/var/html/redoc/
       - static_value:/var/html/static/
       - media_value:/var/html/media/
 
